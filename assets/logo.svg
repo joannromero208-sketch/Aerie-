@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Aerie Roofing logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f3d87a"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <!-- Circular badge -->
+  <circle cx="120" cy="120" r="110" fill="none" stroke="url(#g)" stroke-width="6" opacity="0.95" />
+
+  <!-- Stylized eagle head & wing (minimal, geometric) -->
+  <g transform="translate(40,30) scale(1.1)" fill="url(#g)" stroke="none">
+    <path d="M70 20 C95 20 120 40 120 66 C120 90 95 104 70 120 C48 104 30 86 18 70 C28 52 44 28 70 20 Z"/>
+    <path d="M130 70 C150 60 180 58 200 70 C180 78 160 95 140 110 C122 95 110 82 100 70 C112 68 122 67 130 70 Z"/>
+    <!-- Beak -->
+    <path d="M78 72 L98 78 L88 64 Z" fill="#b8860b"/>
+  </g>
+
+  <!-- Company initials subtle in center -->
+  <text x="120" y="190" font-family="Segoe UI, Tahoma, Geneva, Verdana, sans-serif" font-size="22" text-anchor="middle" fill="#d4af37" font-weight="700">AERIE</text>
+</svg>
