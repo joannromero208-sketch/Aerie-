@@ -5,7 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aerie Roofing Company - Professional Roofing Services</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="Aerie Roofing Company | Professional Roofing Services">
+    <meta property="og:description" content="Free Roof Health Check. We help homeowners identify storm damage from Hurricane Beryl and work through insurance options.">
+    <meta property="og:image" content="assets/logo.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Aerie Roofing Company",
+      "url": "https://joannromero208-sketch.github.io/Aerie-",
+      "logo": "assets/logo.svg",
+      "contactPoint": [
+        {"@type": "ContactPoint", "telephone": "+1-405-590-6808", "contactType": "customer service", "areaServed": "US"},
+        {"@type": "ContactPoint", "telephone": "+1-832-510-1216", "contactType": "sales", "areaServed": "US"}
+      ]
+    }
+    </script>
 </head>
 <body>
     <nav class="navbar">
@@ -26,6 +43,20 @@
             </ul>
         </div>
     </nav>
+
+    <!-- Dismissible top banner -->
+    <div id="top-banner" class="top-banner" role="region" aria-label="Important notice">
+      <div class="container banner-inner">
+        <div class="banner-message">
+          <strong>🏠 Did you switch insurance companies after Hurricane Beryl?</strong>
+          <span class="banner-sub">Even if you changed carriers, the insurer at the time of loss may still be responsible for covered storm damage.</span>
+        </div>
+        <div class="banner-actions">
+          <a href="#storm-notice" id="top-banner-cta" class="banner-cta">Learn More</a>
+          <button id="top-banner-close" class="banner-close" aria-label="Dismiss banner">✕</button>
+        </div>
+      </div>
+    </div>
 
     <section id="home" class="hero">
         <div class="hero-content">
@@ -167,10 +198,11 @@
                         <strong>Hours:</strong> Monday - Friday, 8:00 AM - 5:00 PM
                     </p>
                 </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                <form class="contact-form" action="https://formspree.io/f/xbjlvnqn" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <input type="hidden" name="_subject" value="Aerie Roofing Contact Form">
                     <button type="submit" class="submit-button">Send Message</button>
                 </form>
             </div>
@@ -180,5 +212,7 @@
     <footer>
         <p>&copy; 2026 Aerie Roofing Company. All rights reserved.</p>
     </footer>
+
+    <script src="assets/site.js"></script>
 </body>
 </html>
