@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aerie Roofing - Professional Roofing Services</title>
+    <title>Aerie Roofing Company - Professional Roofing Services</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
-            <div class="logo">Aerie Roofing</div>
+            <div class="logo-section">
+                <div class="logo-icon">🦅</div>
+                <div class="logo-text">
+                    <span class="logo-main">Aerie Roofing Company</span>
+                    <span class="logo-tagline">Premium Roofing Solutions</span>
+                </div>
+            </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -32,20 +40,24 @@
             <h2>Our Services</h2>
             <div class="services-grid">
                 <div class="service-card">
+                    <i class="fas fa-hammer"></i>
                     <h3>Roof Installation</h3>
-                    <p>Professional installation of new roofs with premium materials</p>
+                    <p>Professional installation of new roofs with premium materials and expert craftsmanship</p>
                 </div>
                 <div class="service-card">
+                    <i class="fas fa-wrench"></i>
                     <h3>Roof Repair</h3>
-                    <p>Fast and reliable repair services for damaged roofs</p>
+                    <p>Fast and reliable repair services for damaged roofs and emergency situations</p>
                 </div>
                 <div class="service-card">
+                    <i class="fas fa-tools"></i>
                     <h3>Roof Maintenance</h3>
-                    <p>Regular maintenance to extend the life of your roof</p>
+                    <p>Regular maintenance programs to extend the life of your roof</p>
                 </div>
                 <div class="service-card">
+                    <i class="fas fa-search"></i>
                     <h3>Inspections</h3>
-                    <p>Comprehensive roof inspections and damage assessments</p>
+                    <p>Comprehensive roof inspections and detailed damage assessments</p>
                 </div>
             </div>
         </div>
@@ -55,10 +67,43 @@
         <div class="container">
             <h2>Recent Projects</h2>
             <div class="portfolio-grid">
-                <div class="portfolio-item">Project 1</div>
-                <div class="portfolio-item">Project 2</div>
-                <div class="portfolio-item">Project 3</div>
-                <div class="portfolio-item">Project 4</div>
+                <div class="portfolio-item">
+                    <span>Project 1</span>
+                    <span class="project-type">Residential</span>
+                </div>
+                <div class="portfolio-item">
+                    <span>Project 2</span>
+                    <span class="project-type">Commercial</span>
+                </div>
+                <div class="portfolio-item">
+                    <span>Project 3</span>
+                    <span class="project-type">Residential</span>
+                </div>
+                <div class="portfolio-item">
+                    <span>Project 4</span>
+                    <span class="project-type">Emergency Repair</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Aerie Roofing Company</h2>
+            <p>With over 15 years of experience in the roofing industry, Aerie Roofing Company is committed to providing top-quality roofing solutions. Our team of certified professionals delivers exceptional service on every project, ensuring your roof protects your home for years to come.</p>
+            <div class="about-features">
+                <div class="feature">
+                    <i class="fas fa-certificate"></i>
+                    <h4>Licensed & Insured</h4>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-award"></i>
+                    <h4>Award Winning</h4>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-star"></i>
+                    <h4>5-Star Service</h4>
+                </div>
             </div>
         </div>
     </section>
@@ -66,17 +111,38 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="submit-button">Send Message</button>
-            </form>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>
+                        <i class="fas fa-phone"></i>
+                        <strong>Phone:</strong> (555) 123-4567
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope"></i>
+                        <strong>Email:</strong> info@aerieroofingcompany.com
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <strong>Address:</strong> 123 Main Street, Anytown, ST 12345
+                    </p>
+                    <p>
+                        <i class="fas fa-clock"></i>
+                        <strong>Hours:</strong> Monday - Friday, 8:00 AM - 5:00 PM
+                    </p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Aerie Roofing. All rights reserved.</p>
+        <p>&copy; 2026 Aerie Roofing Company. All rights reserved.</p>
     </footer>
 </body>
 </html>
